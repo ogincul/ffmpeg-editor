@@ -12,10 +12,10 @@
    apt-get update && apt-get install ffmpeg -y
    ```
 
-3. Copy from 1.30s to 2.00s
+3. Copy from 10s to 20s
    
    ```
-   ffmpeg -i input.mp4 -ss 00:01:30 -c copy -t 00:00:30 output.mp4
+   ffmpeg -i input.mp4 -ss 00:00:10 -c copy -t 00:00:10 output.mp4
    ```
 
 4. Speed up: 1 - convert to raw; 2 - increase playback frame rate (-r)
